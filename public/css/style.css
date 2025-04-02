@@ -1,0 +1,165 @@
+/* Simple CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Navbar */
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+/* Footer */
+.f-info-socials a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.f-info-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-info-socials i {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.f-info {
+  text-align: center;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  height: 8rem;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+/* Cards */
+.card {
+  border-radius: 0 !important;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 0 1rem; /* Adjust padding if needed */
+}
+
+.main h2 {
+  width: 100%;
+}
+
+.main a {
+  text-decoration: none;
+}
+
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top img {
+  border-radius: 0.75rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  height: 18rem !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400;
+}
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+/* New listing styling */
+.add-btn {
+  background-color: #fe424d !important;
+}
+
+/* Edit ejs */
+.edit-btn {
+  background-color: #fe424d !important;
+}
+
+/* Show ejs */
+.show-img {
+  height: 45vh !important;
+  border-radius: 1rem !important;
+}
+
+.show-btn {
+  display: flex;
+  width: 100%;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Multiple Image */
+.add-img {
+  border-radius: 100% !important;
+  background-color: #f12f53 !important;
+  color: #fff !important;
+  margin-top: 10px;
+  font-size: 15px !important;
+}
+
+.add-img:hover {
+  background-color: #dc2f4f !important;
+}
